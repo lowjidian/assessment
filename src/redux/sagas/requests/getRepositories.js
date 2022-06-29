@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const url = 'https://api.github.com/users/react-native-community/repos';
-const token = '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';
+// Removed token to prevent unauthorized access
+const token = 'TOKEN HERE';
 
 const requestGetRepositories = () => {
   return axios
